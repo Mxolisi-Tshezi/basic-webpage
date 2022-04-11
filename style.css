@@ -1,0 +1,160 @@
+body {
+
+    background-color: #9d8f;
+}
+.container{
+
+    position: relative;
+    margin-left: 5em;
+    margin-right: 5em;
+
+}
+
+
+.header {
+    display: flex ;
+    text-align : center;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+    /* padding-right: 100px; */
+   
+}
+
+.header img {
+    border-radius: 2em;
+}
+
+.Name {
+    display: flex;
+    margin-right: 30px;
+    
+
+}
+
+table,
+th,
+td {
+    padding: 1em;
+    border: 3px solid black;
+    border-collapse: collapse;
+    max-width: 50%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: #e9c46a;
+    margin-bottom: 1em;
+    margin-left: 20%;
+    width: 100%;
+
+}
+
+
+
+
+.the_Places {
+    padding: 6px;
+    display: flexbox;
+    float: left;
+    background-color: #9d8f;
+  
+}
+
+.place img {
+
+    float: right;
+}
+
+.imgSize {
+    max-width: 150px;
+    height: 100px;
+    margin: 0.5em;
+}
+
+.city{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+     margin-right: 10px;
+     align-items: center;
+     justify-content: center; 
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-radius: 1em;}
+   
+       .tokyo{
+            display: flex;
+            align-items: center;
+             margin-bottom: 10px;
+            justify-content: center; 
+          
+
+     }
+
+.Foreign_languageSection {
+    margin-top: 1em;
+   
+}
+
+h1 {
+
+
+    text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+
+@media(min-width:800px) {
+
+    img {
+        vertical-align: center;
+    }
+
+    .place {
+        float: left;
+        display: block;
+        width: 30%;
+        padding: 0.5em;
+    }
+
+
+}
+
+.footer {
+
+    padding: 2em;
+    border-radius: 1em;
+}
+.text{
+
+    margin: 45em;
+}
+
+@media only screen and (max-width:800px){
+    .header{
+        flex-direction: column;
+    }
+    .Name{
+        margin-bottom: 20px;
+    }
+
+
+    .tokyo{
+        flex-direction: column;
+    }
+
+    /* h3{
+        margin-bottom: 5px;
+    } */
+    .city{
+        text-align: center;
+    }
+    .name_City{
+        text-align: center;
+    }
+
+} 
