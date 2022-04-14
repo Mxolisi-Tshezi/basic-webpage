@@ -194,19 +194,28 @@ html,body {
     border-radius: 1em; 
 
   }
-  
-   table, td, th {
+  table,
+th,
+td {
     padding: 1em;
-  border: 3px solid black;
-  border-collapse: collapse;
-  max-width: 50%;
-  text-align: center;
-  border-bottom: 1px solid black;
-  background-color: #e9c46a;
-  margin-bottom: 1em;
-  margin-left: 20%;
-  width: 100%;
-  }
+    border: 3px solid black;
+    /* max-width: 50%; */
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: #e9c46a;
+    margin-top: 20px;
+
+}
+
+
+table {
+
+    /* margin-left: 20%; */
+    width: 100%;
+    border-collapse: collapse;
+    /* text-align: center; */
+}
+
   .pic1{
  
   height: 150px;
@@ -347,14 +356,20 @@ html,body {
       float:right;
       margin-left: 5px;
     }
+
+
    
   }
   
-  @media only screen and (min-width: 60em) { /* 960px */
+  @media only screen and (min-width: 60em) { 
     .container {
       width: 75%;
       max-width: 60rem;
     }
+
+    /* .movecentre{
+      text-align: center;
+          } */
   }
   .footer{
 
